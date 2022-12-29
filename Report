@@ -64,7 +64,7 @@ Now we again connect the user bandit5 to host by the command : ssh bandit5@bandi
 and there we paste the password that we just retrieved from the previous question. 
 Now we again check the list of the files by entering ls -alps and find the 'inhere' directory. 
 Then press 'cd inhere' to change our directory to 'inhere'.
-We now execute the command : find . -type f -size 1033c ! executable, here find is used to search for a file/directory
+We now execute the command : find . -type f -size 1033c ! -executable, here find is used to search for a file/directory
 '.' means search in current directory -type helps in filtering files and directories, f switch means file -size helps to justify size here c represents no. of bytes.
 ! executable means non executable
 And now to display its content we use the command 'cat thtfile'.
